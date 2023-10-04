@@ -246,3 +246,116 @@ footer > .footer-right {
   display: flex;
   gap: 20px;
 }
+
+/* About page styling start here */
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-container > .about-left {
+  flex: 1;
+}
+.about-container > .about-right {
+  flex: 1;
+}
+.about-container .about-left h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.about-container .about-left p {
+  text-align: justify;
+}
+.work-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work-container > .work-left {
+  display: flex;
+  flex-direction: column;
+}
+.work-container > .work-left > p {
+  font-size: 1.3rem;
+}
+.work-container > .work-left > .work-field {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.work-left > .work-field > span {
+  color: gray;
+  display: flex;
+  gap: 10px;
+}
+
+.work-container > .work-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.work-container > .work-right > button {
+  border: none;
+  background-color: #d7ffe0;
+  color: #018c0f;
+  padding: 15px 20px;
+  width: fit-content;
+  border-radius: 30px;
+}
+
+.work-container > .work-right > span {
+  color: gray;
+  display: flex;
+  gap: 10px;
+}
+
+// teck page stle start here
+.teck-container {
+}
+.teck-container > h1 {
+  text-align: left;
+}
+
+.brands {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+}
+
+/* projects page styling start here  */
+.project-container h1 {
+  font-size: 2.3rem;
+}
+
+/* contact page styling start here  */
+
+.contact-container {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80vw;
+  min-height: 80vh;
+}
+.contact-container > h1 > span {
+  background: linear-gradient(
+    45deg,
+    hsl(240deg 85% 64%) 0%,
+    hsl(311deg 61% 46%) 10%,
+    hsl(343deg 52% 50%) 20%,
+    hsl(14deg 40% 47%) 30%,
+    hsl(33deg 23% 43%) 40%,
+    hsl(60deg 1% 46%) 50%,
+    hsl(81deg 9% 51%) 60%,
+    hsl(105deg 18% 58%) 70%,
+    hsl(135deg 36% 64%) 80%,
+    hsl(155deg 67% 65%) 90%,
+    hsl(171deg 100% 50%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+}
